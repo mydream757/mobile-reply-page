@@ -1,0 +1,16 @@
+
+#login-btn-container{
+    width: 100%;
+    text-align: center;
+}
+#login-btn-container #login-btn{
+    display: inline-block;
+    vertical-align: middle;
+    font-size : 1rem;
+    font-weight: 600;
+    background: red;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 1px solid red;
+    border-radius: 2rem;
+}

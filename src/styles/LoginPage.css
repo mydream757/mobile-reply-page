@@ -1,0 +1,93 @@
+#login-container{
+    bottom: 0;
+    width: 100%;
+}
+#login-page{
+    display: none;
+}
+
+.slidein {
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    animation-name: slidein;
+}
+
+@-moz-keyframes slidein {
+    from {
+        bottom: -20%;
+        transition: transform 2s;
+        transform: translate(0, 30%);
+    }
+}
+  
+@-webkit-keyframes slidein {
+    from {
+        bottom: -20%;
+        transition: transform 2s;
+        transform: translate(0, 30%);
+        
+    }
+}
+  
+@keyframes slidein {
+    from {
+        bottom: -20%;
+        transition: transform 2s;
+        transform: translate(0, 30%);
+    }
+}
+#login-page.slidein{
+    display: block;
+    position : fixed;
+    z-index: 1000;
+    width: 100%;
+    bottom: 0%;
+    border: 1px solid white;
+    padding: 1rem 0;
+    background: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+#login-page .header{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#login-page .red{
+    font-size: 1.2rem;
+    color: red;
+}
+
+
+.social-login-btn{
+    width: 14em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    border : 1px solid transparent;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+}
+.social-login-btn + .social-login-btn{
+    margin-top: 0.5rem;    
+}
+.header + .social-login-btn{
+    margin-top: 0.5rem;    
+}
+.social-login-btn i{
+    font-size: 1.5rem;
+    position: absolute;
+}
+.social-login-btn .black{
+    color: black;
+}
+.social-login-btn{
+    font-size: 1rem;
+    font-weight: 600;
+}

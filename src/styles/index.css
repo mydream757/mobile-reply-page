@@ -1,0 +1,33 @@
+* {
+    margin: 0 auto;
+    font-size: 5vw;
+}
+body{ 
+    margin : 0;    
+}
+.icon-social-login {
+    transition: all .2s;
+    outline: 0;
+    border: 1px solid transparent;
+    padding: .5rem !important;
+    border-radius: 50%;
+    color: #fff;
+}
+
+hr{
+    background-color: darkgray;
+    margin: 0 0.5rem;
+}
+
+#dark-wall.on{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background: black;
+}
+
+.text-dark { color: #343a40!important; }
+

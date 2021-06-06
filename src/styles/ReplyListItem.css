@@ -1,0 +1,136 @@
+.btn-group img{
+    width: 1rem;
+}
+.reply-list-item{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 1rem 0;
+}
+.h-btn-group{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 3%;
+}
+.h-btn-group .text-btn{
+    font-size: 0.6rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid darkgray;
+    border-radius: 1rem;
+}
+
+.text-btn + .text-btn{
+    margin-left: 0.5rem;
+}
+.reply-list-item + .reply-list-item{
+    border-top: 1px solid darkgray;
+}
+.reply-list-item .icon-text-btn + .icon-text-btn{
+    margin-left: 0.5rem;
+}
+.divide{
+    margin-right: 0;
+}
+.divide + .divide{
+    margin-left: 0;
+}
+.reply-right{
+    width: 80%;
+    padding : 0 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.5rem;
+    padding-right: 0;
+}
+.reply-line{
+    width: 0.8rem;
+    position: relative;
+    top: -10%;
+    display: inline-block;
+}
+.userprofile{
+    width: 1rem;
+    position: relative;
+    display: inline-block;
+}
+.username{
+    position: relative;
+    left: 8%;
+    font-size: 0.7rem;
+}
+.userprofile img{
+    width: 100%;
+}
+
+.userplatform-icon{
+    position: absolute;
+}
+.published-at{
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    color: darkgray;
+    float: right;
+}
+.reply-content{
+    padding: 0.5rem ;
+}
+.reply-content p{
+    font-size: 0.5rem;
+}
+.reply-content textarea{
+    font-size: 0.5rem;
+    border : 1px solid darkgray;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.reply-content #err-noti{
+    color: red;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+.reply-right .btn-group{
+    display: flex;
+}
+
+.icon-social-login{
+    display: inline-flex;
+}
+@media screen and (min-width: 360px) {
+    .icon-social-login{
+        padding: 0.5vw !important;
+    }
+    .icon-social-login i{
+        font-size: 2vw;
+    }        
+}
+
+@media screen and (min-width: 1024px) {
+    .icon-social-login{
+        padding: 0.5rem;
+    }
+    .icon-social-login i{
+        font-size: 36px;
+        
+    }   
+}
+.icon-text-btn{
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    padding : 0 0.3rem;
+    border-radius: 1rem;
+}
+#favorite-btn.true{
+    background: lightskyblue;
+}
+#dislike-btn.true{
+    background: lightcoral;
+}
+.icon-text-btn img{
+    width: 3vw;
+}
+.icon-text-btn span{
+    font-size: 0.7rem;
+}

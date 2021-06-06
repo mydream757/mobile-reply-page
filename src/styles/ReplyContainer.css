@@ -1,0 +1,108 @@
+#my-reply-container{
+    z-index: 1000;
+}
+#reply-register-container{
+    text-align: center;
+    display: block;
+    bottom: 0%;
+    border-top: 1px 0 0 0 solyid white;
+    background: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+}
+
+
+
+#my-reply-container.reply-slidein{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#my-reply-container #my-info{
+    display: none;
+    
+}
+
+#my-reply-container #reply-register-btn{
+    display: none;
+}
+#my-reply-container.reply-slidein #info-container{
+    position: relative;
+    height: 1rem;
+    padding: 1rem;
+}
+#my-reply-container.reply-slidein #my-info{
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
+#my-reply-container #my-info .userprofile{margin-right: 0;}
+#my-reply-container #my-info .userplatform{margin-bottom: 0.5rem; margin-left: 0.5rem;}
+#my-reply-container #my-info .username{}
+#my-reply-container textarea{
+    box-sizing: border-box;
+    width: 80%;
+    outline: none;
+    padding: 0 1rem;
+    border: 1px solid darkgray;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+}
+#my-reply-container #err-noti{
+    color: red;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+#my-reply-container.reply-slidein textarea {
+    height: auto;
+    padding: 1rem;
+}
+#my-reply-container.reply-slidein textarea.is-err {
+    border: 1px red solid;
+}
+
+
+#my-reply-container.reply-slidein #reply-register-btn{
+    display: block;
+    bottom: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background: red;
+    padding: 0.5rem 0;
+}
+
+.reply-slidein {
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -moz-animation-name: reply-slidein;
+    -webkit-animation-name: reply-slidein;
+    animation-name: reply-slidein;
+}
+
+
+@-moz-keyframes reply-slidein {
+    from {
+        transition: transform 1s;
+        transform: translate(0, 30%);
+    }
+}
+  
+@-webkit-keyframes reply-slidein {
+    from {
+        transition: transform 1s;
+        transform: translate(0, 30%);
+        
+    }
+}
+  
+@keyframes reply-slidein {
+    from {
+        transition: transform 1s;
+        transform: translate(0, 30%);
+    }
+}

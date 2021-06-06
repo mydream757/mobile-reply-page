@@ -1,0 +1,83 @@
+#post-detail-page{
+    width: 100%;
+    padding-bottom: 1rem ;
+}
+#post-detail-page #post-detail-header{
+    background : black;
+    color: rgb(255, 255, 255);
+    padding: 0.2rem;
+    height: 2rem;
+    vertical-align: middle;
+}
+
+#post-detail-info{ padding : 0.2rem; }
+#post-detail-info .write-count{
+    text-align: end;
+}
+
+#post-detail-info .username{ display: inline-block; vertical-align: middle;}
+#post-detail-info .userprofile{padding-top : 0.2rem;}
+#post-detail-title{ font-size : 0.8rem; }
+
+#post-content-container{ padding: 1rem; }
+#post-content-container .post-info{ color: darkgray; display : flex; justify-content: space-between;}
+#post-content-container span.publish-date { margin-left : 0; font-size : 0.7rem; }
+#post-content-container span.write-count { margin-right : 0; font-size : 0.7rem;}
+#post-detail-content{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#post-detail-content p{ font-size: 0.7rem; }
+.inline{
+    display: inline-block;
+}
+#post-detail-page #post-detail-info{
+    display: block;
+}
+#post-detail-page #post-detail-info .published-at{
+    padding : 0 0.5rem;
+    float: right;
+    color: darkgray;
+}
+#post-detail-page #post-detail-info .published-at span{
+    font-size: 0.7rem;
+}
+#post-detail-header .icon-btn img{
+    margin: 2vw;
+    position: inherit;
+    width: 5vw;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+#post-detail-header #back-btn{
+    vertical-align: middle;
+    float: left;
+}
+
+#post-detail-header #hamburger-btn{
+    vertical-align: middle;
+    float: right;
+}
+
+#post-detail-header #post-detail-title{
+    display: inline-block;
+}
+#post-detail-title span{
+    width: auto;
+    overflow: hidden;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background : black;
+    color: white;
+}
+
+#reply-container{
+    padding : 0.5rem 1rem ;
+}
+
+#reply-more-btn span{
+    font-size: 0.8rem;
+}
